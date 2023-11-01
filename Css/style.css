@@ -1,0 +1,32 @@
+/* Keep the Agbalumo font-family for all elements */
+* {
+  font-family: Agbalumo;
+}
+
+/* Increase the padding for h2 and p inside .home-text */
+.home-content .home-text h2 {
+  padding: 30px; /* Increase the padding */
+}
+
+.home-content .home-text p {
+  padding: 30px; /* Increase the padding */
+}
+
+/* Maintain the image width and height, but add margin on smaller screens */
+.container .row img {
+  width: 600px;
+  height: 300px;
+}
+
+@media only screen and (max-width: 720px) {
+  .container .row img {
+    margin: 10px; /* Add margin for smaller screens */
+  }
+}
+
+/* Maintain the card margin for smaller screens in .container-fluid */
+@media only screen and (max-width: 720px) {
+  .container-fluid .row .card {
+    margin: 10px; /* Maintain the card margin for smaller screens */
+  }
+}
